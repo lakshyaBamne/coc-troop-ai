@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+body > *{
+    margin: 10px;
+}
+
+#menu{
+    width: 50%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#menu_buttons{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    height: 100%;
+}
+
+#menu_buttons > *{
+    margin: 5px;
+
+    height: 75%;
+    width: 25%;
+
+    border: 0px;
+}
+
+#game{
+    border: 1px solid;
+}
